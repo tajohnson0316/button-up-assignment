@@ -1,0 +1,42 @@
+button {
+    /* Give each button a 15-pixel margin, top & bottom. All pixel values in this file are arbitrary guess work :) */
+    margin: 15px;
+    /* Buttons are defaulted to inline-blocks. I wanted regular boxes for this project so that my buttons would automatically stack vertically */
+    display: block;
+}
+
+.search {
+    /* For some reason the page we are recreating had a similarly-spaced margin from the top. */
+    margin-top: 50px;
+    border: 2px solid aquamarine;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: aquamarine;
+    /* The line below is used to create rounded edges. Neat! */
+    border-radius: 15px;
+    min-width: 130px;
+    min-height: 30px;
+}
+
+.circle-button {
+    border: none;
+    background-color: aquamarine;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    /* The 3 lines below are used to create a circle. Fun! */
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.create-account {
+    border: 2px solid black;
+    background-color: #2b78e4;
+    color: white;
+    text-align: center;
+    /* For reference: box-shadow parameters are (x, y, blur, spread radius, color) */
+    box-shadow: 4px 2px black;
+    min-width: 155px;
+    min-height: 35px;
+}
